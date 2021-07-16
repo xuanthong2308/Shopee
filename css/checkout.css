@@ -1,0 +1,54 @@
+.address-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.address-icon {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cus_info {
+    margin: 0 !important;
+}
+
+.address-content {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-size: 15px;
+}
+
+.cus_address {
+    margin-left: 20px;
+    color: #333333bf;
+    font-weight: 500;
+}
+
+.checkout-content {
+    margin: 0;
+}
+
+.checkout-address {
+    margin-top: 30px !important;
+}
+
+.checkout-content-product {
+    color: #333333;
+    font-size: 18px;
+}
+
+.checkout-content-title {
+    color: var(--text-color-light);
+    font-size: 16px;
+}
+
+.checkout-content-price {
+    font-size: 18px;
+}
+
+.aaa{
+    text-align: center;
+}

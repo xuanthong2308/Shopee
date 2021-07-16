@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/product-content.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <title>ASM - WEB UI</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__navbar">
+                    <div class="header__navbar-list">
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--separate">Kênh Người
+                                Bán</a>
+                        </div>
+                        <div class="header__navbar-item download">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--separate">
+                                Tải Ứng Dụng
+                            </a>
+                            <div class="app-download">
+                                <a href="#"><img src="images/qrcode.png" alt="QR code" class="qr-img"></a>
+                                <div class="mobile-app">
+                                    <a href="#"><img src="images/ggplay.png" alt="GG Play" class="mobile-img"></a>
+                                    <a href="#"><img src="images/appstore.png" alt="App Store" class="mobile-img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__navbar-item">
+                            Kết Nối
+                            <a href="#" class="header__navbar-icon"><i class="navbar-icon fab fa-facebook"></i></a>
+                            <a href="#" class="header__navbar-icon"><i class="navbar-icon fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="header__navbar-list">
+                        <div class="header__navbar-item sub-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-icon">
+                                <i class="navbar-icon far fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <div class="notify-content">
+                                    <img src="images/notifyNologin.png" alt="img no login" class="notify-img">
+                                    <p>Đăng nhập để xem Thông báo</p>
+                                </div>
+                                <div class="notify__footer">
+                                    <div class="notify__footer-btn"><a href="#" class="notify__footer-btn-text">Đăng
+                                            Ký</a></div>
+                                    <div class="notify__footer-btn"><a href="#" class="notify__footer-btn-text">Đăng
+                                            Nhập</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-icon">
+                                <i class="navbar-icon far fa-question-circle"></i>
+                                Trợ Giúp
+                            </a>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#"
+                                class="header__navbar-item-link header__navbar-item--strong header__navbar-item--separate">Đăng
+                                Ký</a>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--strong">Đăng Nhập</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END header__navbar -->
+
+                <div class="header__main row">
+                    <div class="header__logo l-2 col m-0 hide-on-mobile">
+                        <a href="#"><img src="images/logo-full-white.png" alt="logo-img"></a>
+                    </div>
+                    <div class="search__content col l-8  m-9 c-8">
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" id="search" class="header__search-input"
+                                    placeholder="Bùng nổ ưu đãi đến 50%">
+                                <!-- <div id="search__extend" class="header__search-extend">
+                                        <a href="#" class="search__extend-item">
+                                            <p class="extend__item-text">Bùng nổ ưu đãi đến 50%</p>
+                                            <img src="images/search-history.jpg" alt="search extend" class="extend__item-img">
+                                        </a>
+                                    </div> -->
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="search__trend">
+                            <a href="#" class="search__trend-text">Sandal Nữ</a>
+                            <a href="#" class="search__trend-text">Hoodie Nam</a>
+                            <a href="#" class="search__trend-text">Dép Nam</a>
+                            <a href="#" class="search__trend-text">Balo Nữ</a>
+                            <a href="#" class="search__trend-text">Áo Nữ</a>
+                            <a href="#" class="search__trend-text">Quần Nam</a>
+                            <a href="#" class="search__trend-text">Quần Nữ</a>
+                            <a href="#" class="search__trend-text">Balo Nam</a>
+                        </div>
+                    </div>
+                    <div class="header__cart col l-1 m-o-1 m-1 c-2">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <p>5</p>
+                            <div class="header__cart-no-cart">
+                                <img src="images/notify-cart.png" alt="no cart" class="no__cart-img">
+                                <p>Chưa Có Sản Phẩm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__user col l-0 m-1 c-1">
+                        <i class="header__cart-icon fas fa-user"></i>
+                    </div>
+                </div>
+
+                <!-- END header__main -->
+
+            </div>
+        </header>
+
+        <!-- END HEADER -->
+
+        <div class="profile-container">
+
+            <div class="grid wide">
+                <div class="row">
+                    <div class="menu_profile col l-2">
+                        <div class="row name-img">
+                            <div class="name-img-img">
+                                <img src="https://attackofthefanboy.com/wp-content/uploads/2021/01/genshin-impact-ganyu-2.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="name-img-name">
+                                <h3>VuXuanThanh</h3>
+                            </div>
+                        </div>
+                        <div class="row profile-list">
+                            <a href="profile.html" class="row profile-info">
+                                <div class="profile-info-acc">
+                                    <i class="far fa-user profile-icon"></i>
+                                </div>
+                                <p>Tài khoản của tôi</p>
+                            </a>
+                            <a href="#" class="row profile-info">
+                                <div class="profile-info-order">
+                                    <i class="fas fa-file-alt profile-icon"></i>
+                                </div>
+                                <p>Đơn mua</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_profile col l-10">
+                        <div class="order-wrap">
+                            <div class="order-status">
+                                Đang xử lý
+                            </div>
+                            <div class="order-content row">
+                                <div class="order-content-img">
+                                    <img src="https://cf.shopee.vn/file/643fdaada4acca5dd434cd76fa2a203f_tn" alt="">
+                                </div>
+                                <div class="order-content-item">
+                                    <p class="order-content-item-name">Combo 2 gói khăn giấy rút gấu trúc Elene 100 tờ 3
+                                        lớp (Hàng công ty Thuận Phát)</p>
+                                    <p class="order-content-item-quantity">x1</p>
+                                </div>
+                                <div class="order-content-price col l-1">
+                                    <p class="order-content-item-price">₫20.000</p>
+                                </div>
+                            </div>
+                            <div class="order-total row">
+                                <div class="order-total-button col l-4 l-o-8">
+                                    <div class="order-total-price-img">
+                                        <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bca2e6323e918c445dfe0279ebbc2c39.png"
+                                            alt="">
+                                    </div>
+                                    <div class="order-total-price-text">
+                                        Tổng số tiền:
+                                    </div>
+                                    <div class="order-total-price-price">
+                                        <p>₫20.000</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- END TOTAL CATEGORY -->
+
+
+
+            <!-- END SERVICE FOOTER -->
+        </div>
+
+        <!-- END CONTAINER -->
+
+
+        <!-- END FOOTER -->
+    </div>
+
+</body>
+
+</html>

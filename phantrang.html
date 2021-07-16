@@ -1,0 +1,1226 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product-content.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <title>ASM - WEB UI</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__navbar">
+                    <div class="header__navbar-list">
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--separate">Kênh Người
+                                Bán</a>
+                        </div>
+                        <div class="header__navbar-item download">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--separate">
+                                Tải Ứng Dụng
+                            </a>
+                            <div class="app-download">
+                                <a href="#"><img src="images/qrcode.png" alt="QR code" class="qr-img"></a>
+                                <div class="mobile-app">
+                                    <a href="#"><img src="images/ggplay.png" alt="GG Play" class="mobile-img"></a>
+                                    <a href="#"><img src="images/appstore.png" alt="App Store" class="mobile-img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__navbar-item">
+                            Kết Nối
+                            <a href="#" class="header__navbar-icon"><i class="navbar-icon fab fa-facebook"></i></a>
+                            <a href="#" class="header__navbar-icon"><i class="navbar-icon fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="header__navbar-list">
+                        <div class="header__navbar-item sub-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-icon">
+                                <i class="navbar-icon far fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <div class="notify-content">
+                                    <img src="images/notifyNologin.png" alt="img no login" class="notify-img">
+                                    <p>Đăng nhập để xem Thông báo</p>
+                                </div>
+                                <div class="notify__footer">
+                                    <div class="notify__footer-btn"><a href="#" class="notify__footer-btn-text">Đăng
+                                            Ký</a></div>
+                                    <div class="notify__footer-btn"><a href="#" class="notify__footer-btn-text">Đăng
+                                            Nhập</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-icon">
+                                <i class="navbar-icon far fa-question-circle"></i>
+                                Trợ Giúp
+                            </a>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#"
+                                class="header__navbar-item-link header__navbar-item--strong header__navbar-item--separate">Đăng
+                                Ký</a>
+                        </div>
+                        <div class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link header__navbar-item--strong">Đăng Nhập</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END header__navbar -->
+
+                <div class="header__main row">
+                    <div class="header__logo l-2 col m-0 hide-on-mobile">
+                        <a href="#"><img src="images/logo-full-white.png" alt="logo-img"></a>
+                    </div>
+                    <div class="search__content col l-8  m-9 c-8">
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" id="search" class="header__search-input"
+                                    placeholder="Bùng nổ ưu đãi đến 50%">
+                                <!-- <div id="search__extend" class="header__search-extend">
+                                        <a href="#" class="search__extend-item">
+                                            <p class="extend__item-text">Bùng nổ ưu đãi đến 50%</p>
+                                            <img src="images/search-history.jpg" alt="search extend" class="extend__item-img">
+                                        </a>
+                                    </div> -->
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="search__trend">
+                            <a href="#" class="search__trend-text">Sandal Nữ</a>
+                            <a href="#" class="search__trend-text">Hoodie Nam</a>
+                            <a href="#" class="search__trend-text">Dép Nam</a>
+                            <a href="#" class="search__trend-text">Balo Nữ</a>
+                            <a href="#" class="search__trend-text">Áo Nữ</a>
+                            <a href="#" class="search__trend-text">Quần Nam</a>
+                            <a href="#" class="search__trend-text">Quần Nữ</a>
+                            <a href="#" class="search__trend-text">Balo Nam</a>
+                        </div>
+                    </div>
+                    <div class="header__cart col l-1 m-o-1 m-1 c-2">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <p>5</p>
+                            <div class="header__cart-no-cart">
+                                <img src="images/notify-cart.png" alt="no cart" class="no__cart-img">
+                                <p>Chưa Có Sản Phẩm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__user col l-0 m-1 c-1">
+                        <i class="header__cart-icon fas fa-user"></i>
+                    </div>
+                </div>
+
+                <!-- END header__main -->
+
+            </div>
+        </header>
+
+        <!-- END HEADER -->
+
+        <div class="container">
+
+            <div class="suggest">
+                <div class="grid wide">
+                    <div class="suggest__top row">
+                        <div class="suggest__top-name l-3 m-6 c-6">Gợi ý hôm nay</div>
+                        <img src="images/suggest.png" alt="suggest-img" class="suggest-img l-3 m-6 c-6">
+                    </div>
+                    <div class="suggest_list-product sm-gutter row">
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-1.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Thanh gỗ thông (nan gỗ thông)
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫5.000</p>
+                                        <p>Đã bán 680</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-2.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Xà Phòng Cám Gạo ⚜️FREESHIP⚜️ Xà Phòng Trắng Da Thái Lan Jam Rice Milk Soap
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫2.280</p>
+                                        <p>Đã bán 3,2k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-3.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Đệm ngồi bệt, nệm lót ghế 40x40cm có dây buộc
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫33.000</p>
+                                        <p>Đã bán 7k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-4.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [GIÁ HUỶ DIỆT] Sỉ Cột Tóc Scrunchies Pompom Hoa Cúc Caro
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫2.990</p>
+                                        <p>Đã bán 1,6k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-5.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [XẢ KHO] ÁO NỈ TAY BỒNG SIÊU XINH
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫29.000</p>
+                                        <p>Đã bán 1,4k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-6.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Áo Thun Sweater Nam Nữ. Áo Nỉ Nam Dài Tay Cổ Tròn Unisex Vải Cotton Giữ
+                                        Nhiệt in
+                                        Hình Basic
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫95.000</p>
+                                        <p>Đã bán 326</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-7.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Áo lót bralette thiết kế phối ren Fancy Fancy | MS 6602
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫40.000</p>
+                                        <p>Đã bán 109</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-8.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Dép Quai Ngang Nữ Đế Bánh Mì Trơn Phong Cách Hàn Quốc Đế Cao 4p
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫27.000</p>
+                                        <p>Đã bán 3k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-9.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Body chip dài tay Carter's Cambodia xuất xịn 0-24M
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫10.000</p>
+                                        <p>Đã bán 10</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-10.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Tấm trải bàn ăn PVC
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫21.500</p>
+                                        <p>Đã bán 17</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-11.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Túi Đựng Bút Trong Suốt In Họa Tiết Dễ Thương
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫6.000</p>
+                                        <p>Đã bán 2,3k </p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-12.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [Mã WAMS11 hoàn 20% xu đơn 99k] Áo hoodie nỉ trơn baisic HT12
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫33.000</p>
+                                        <p>Đã bán 2,7k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-13.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        NHỚT POWER UP 4T 20W50 DÀNH CHO XE SỐ 800ML
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫109.000</p>
+                                        <p>Đã bán 40</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-14.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Giày Thể Thao Nữ 💓SV01💓Phiên Bản Mới💓HotTrend 2020💓Cá Tính💓Xinh
+                                        Xắn💓Chất
+                                        Liệu Thoáng Khí💓Cực Êm (Kèm Quà Tặng)
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫69.000</p>
+                                        <p>Đã bán 627</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-15.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Áo khoác nỉ hoodie trơn Unisex - Thun tay dài form rộng có mũ dáng suông
+                                        basic
+                                        ulzzang nam nữ HOT
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫85.000</p>
+                                        <p>Đã bán 6k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-16.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        (Video thật) Giày thể thao nữ dáng cơ bản 3 màu siêu trend chữ ký Jinai
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫85.000</p>
+                                        <p>Đã bán 5,2k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-17.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Ví bóp nữ mini ngắn nhỏ gọn có thể bỏ túi
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫29.000</p>
+                                        <p>Đã bán 2,6k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-18.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [Mã FASHIONCB222 hoàn 10K xu đơn 50K] Mắt Kính Gọng Tròn Trong Suốt Phong
+                                        Cách
+                                        Retro
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫41.900</p>
+                                        <p>Đã bán 10,8k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-19.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [SỈ] KHUNG LƯỚI SẮT TRANG TRÍ SIZE 35x35cm và 35x45cm.
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫15.000</p>
+                                        <p>Đã bán 10k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-20.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Dép Bánh Mì Quai Ngang KAWS NEW Dép YZ Slide Siêu Nhẹ, Siêu Bền - DL074
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫69.000</p>
+                                        <p>Đã bán 1,5k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-21.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Mắm Tôm Sáu Linh - Đặc Sản Ba Làng Thanh Hóa
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫30.000</p>
+                                        <p>Đã bán 547</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-22.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Đồ Bộ Pijama - Bộ lụa satin dài tay hoạ tiết Cao cấp [FREE SHIP] [Ảnh
+                                        thật+Video]
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫69.000</p>
+                                        <p>Đã bán 1,2k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-23.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [RẺ VÔ ĐỊCH] Túi Đeo Chéo Canvas Cỡ Lớn Thời Trang Hàn Quốc Học Sinh Sinh
+                                        Viên
+                                        Đi Học , Đi Chơi
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫15.900</p>
+                                        <p>Đã bán 4,2k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-24.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Áo hoodi - Sweater
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫69.000</p>
+                                        <p>Đã bán 369</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-25.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Hướng Dương Vị Dừa - Hướng Dương Mỹ Vị
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫5.800</p>
+                                        <p>Đã bán 5,3k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-26.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Áo giữ nhiệt ❤️FREESHIP❤️ Áo Giữ Nhiệt Kẻ Cao Cổ Lót Lông Cho Bé
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫52.000</p>
+                                        <p>Đã bán 362</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-27.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        Hộp để giày Nắp nhựa cứng trong suốt - Hộp giày Tủ sắp sếp giày Size Nam
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫24.000</p>
+                                        <p>Đã bán 2,4k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-28.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        [Mã WAMS11 hoàn 20% xu đơn 99k] Quần Jogger Nữ Dài Ống Rộng Có Bo SIMPLE
+                                        Ulzzang
+                                        (ẢNH THẬT)
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫79.000</p>
+                                        <p>Đã bán 7,1k</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-29.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        DÉP XỐP QUAI NGANG HÌNH CHÚ CÚN ĐÁNG YÊU CHO BÉ (có ảnh thật)
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫29.000</p>
+                                        <p>Đã bán 232</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                        <div class="suggest__content col l-2 m-4 c-6">
+                            <a href="#" class="suggest__content-product">
+                                <div class="suggest__product-top">
+                                    <div class="main_img">
+                                        <img src="images/main-30.jpg" alt="suggest-main-img">
+                                    </div>
+                                    <div class="main__mark">
+                                        <img src="images/main-mark-1.png" alt="main-mark-img">
+                                    </div>
+                                    <div class="main__mark-like">
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="main__mark-discount">
+                                        <p>20%</p>
+                                        <p>giảm</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-middle">
+                                    <div class="suggest__middle-name">
+                                        NHỚT POWER UP SEMI SYNTHETIC 4T 10W40 DÀNH CHO XE SỐ 0.8L
+                                    </div>
+                                    <div class="suggest__middle-note">
+                                        <p>₫97.300</p>
+                                        <p>Đã bán 40</p>
+                                    </div>
+                                </div>
+                                <div class="suggest__product-bottom">
+                                    Tìm sản phẩm tương tự
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TOTAL CATEGORY -->
+
+            <div class="service__footer hide-on-mobile-tablet">
+                <div class="grid wide">
+                    <div class="service__footer-content">
+                        <div class="service__footer-column">
+                            <div class="service__footer-column-name">CHĂM SÓC KHÁCH HÀNG</div>
+                            <a href="#" class="service__footer-column-item">Trung Tâm Trợ Giúp</a>
+                            <a href="#" class="service__footer-column-item">Shopee Blog</a>
+                            <a href="#" class="service__footer-column-item">Shopee Mall</a>
+                            <a href="#" class="service__footer-column-item">Hướng Dẫn Mua Hàng</a>
+                            <a href="#" class="service__footer-column-item">Hướng Dẫn Bán Hàng</a>
+                            <a href="#" class="service__footer-column-item">Thanh Toán</a>
+                            <a href="#" class="service__footer-column-item">Shopee Xu</a>
+                            <a href="#" class="service__footer-column-item">Vận Chuyển</a>
+                            <a href="#" class="service__footer-column-item">Trả Hàng &amp; Hoàn Tiền</a>
+                            <a href="#" class="service__footer-column-item">Chăm Sóc Khách Hàng</a>
+                            <a href="#" class="service__footer-column-item">Chính Sách Bảo Hành</a>
+                        </div>
+                        <div class="service__footer-column">
+                            <div class="service__footer-column-name">VỀ SHOPEE</div>
+                            <a href="#" class="service__footer-column-item">Giới Thiệu Về Shopee Việt Nam</a>
+                            <a href="#" class="service__footer-column-item">Tuyển Dụng</a>
+                            <a href="#" class="service__footer-column-item">Điều Khoản Shopee</a>
+                            <a href="#" class="service__footer-column-item">Chính Sách Bảo Mật</a>
+                            <a href="#" class="service__footer-column-item">Chính Hãng</a>
+                            <a href="#" class="service__footer-column-item">Kênh Người Bán</a>
+                            <a href="#" class="service__footer-column-item">Flash Sales</a>
+                            <a href="#" class="service__footer-column-item">Chương Trình Tiếp Thị Liên Kết
+                                Shopee</a>
+                            <a href="#" class="service__footer-column-item">Liên Hệ Với Truyền Thông</a>
+                        </div>
+                        <div class="service__footer-column">
+                            <div class="service__footer-column-name">THANH TOÁN</div>
+                            <div class="service__footer-img">
+                                <div class="service__footer-column-img service__footer-visa"></div>
+                                <div class="service__footer-column-img service__footer-master"></div>
+                                <div class="service__footer-column-img service__footer-jcb"></div>
+                                <div class="service__footer-column-img service__footer-amex"></div>
+                                <div class="service__footer-column-img service__footer-cod"></div>
+                                <div class="service__footer-column-img service__footer-tragop"></div>
+                                <div class="service__footer-column-img service__footer-airpay"></div>
+                            </div>
+                            <div class="service__footer-column">
+                                <div class="service__footer-column-name">ĐƠN VỊ VẬN CHUYỂN</div>
+                                <div class="service__footer-img">
+                                    <div class="service__footer-column-ship service__footer-shopee"></div>
+                                    <div class="service__footer-column-ship service__footer-ghtk"></div>
+                                    <div class="service__footer-column-ship service__footer-ghn"></div>
+                                    <div class="service__footer-column-ship service__footer-viettel"></div>
+                                    <div class="service__footer-column-ship service__footer-vnpost"></div>
+                                    <div class="service__footer-column-ship service__footer-jt"></div>
+                                    <div class="service__footer-column-ship service__footer-grab"></div>
+                                    <div class="service__footer-column-ship service__footer-now"></div>
+                                    <div class="service__footer-column-ship service__footer-ninja"></div>
+                                    <div class="service__footer-column-ship service__footer-best"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__footer-column">
+                            <div class="service__footer-column-name">THEO DÕI CHÚNG TÔI TRÊN</div>
+                            <a href="#" class="service__footer-column-item">
+                                <i class="service__footer-icon fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                            <a href="#" class="service__footer-column-item">
+                                <i class="service__footer-icon fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                            <a href="#" class="service__footer-column-item">
+                                <i class="service__footer-icon fab fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </div>
+                        <div class="service__footer-column">
+                            <div class="service__footer-column-name">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</div>
+                            <div class="service__footer-column-app">
+                                <img src="images/qr.png" alt="app-img" class="service__footer-app-qr">
+                                <div class="service__footer-app-mobile">
+                                    <img src="images/chplay.png" alt="app-img" class="service__footer-app-app">
+                                    <img src="images/appstore.png" alt="app-img" class="service__footer-app-app">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="service__footer-text">
+                        <div class="service__footer-x">© 2020 Shopee. Tất cả các quyền được bảo lưu.</div>
+                        <div class="service__footer-x">Quốc gia &amp; Khu vực: Singapore | Indonesia | Đài Loan | Thái
+                            Lan | Malaysia | Việt Nam | Philippines | Brazil |</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END SERVICE FOOTER -->
+        </div>
+
+        <!-- END CONTAINER -->
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer-wrap">
+                    <div class="footer-text-top row">
+                        <div class="footer-text-top-item col l-2 m-4 c-5">CHÍNH SÁCH BẢO MẬT</div>
+                        <div class="footer-text-top-item col l-2 m-4 c-5">QUY CHẾ HOẠT ĐỘNG</div>
+                        <div class="footer-text-top-item col l-3 m-4 c-5">CHÍNH SÁCH VẬN CHUYỂN</div>
+                        <div class="footer-text-top-item col l-3 m-5 c-5">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</div>
+                    </div>
+                    <div class="footer-logo row">
+                        <div class="footer-logo-a col l-1 m-2 c-3"></div>
+                        <div class="footer-logo-b col l-1 m-2 c-3"></div>
+                        <div class="footer-logo-c col l-1 m-2 c-3"></div>
+                    </div>
+                    <div class="footer-logo-text">Công ty TNHH Shopee</div>
+                    <div class="footer-address">
+                        <div class="footer-logo-text footer-address-text">Địa chỉ: Tầng 28, Tòa nhà trung tâm Lotte
+                            Hà
+                            Nội, 54 Liễu Giai,
+                            phường Cống Vị, Quận Ba Đình, Hà Nội. Tổng đài hỗ trợ: 19001221 - Email:
+                            cskh@hotro.shopee.vn</div>
+                        <div class="footer-logo-text footer-address-text">Mã số doanh nghiệp: 0106773786 do Sở Kế
+                            hoạch
+                            &amp; Đầu tư TP Hà
+                            Nội cấp lần đầu ngày 10/02/2015</div>
+                        <div class="footer-logo-text footer-address-text">© 2015 - Bản quyền thuộc về Công ty TNHH
+                            Shopee</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- END FOOTER -->
+    </div>
+</body>
+
+</html>
